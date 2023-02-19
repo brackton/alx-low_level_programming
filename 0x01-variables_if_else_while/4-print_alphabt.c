@@ -9,10 +9,7 @@ int main(void)
 {
 	char la;
 
-	e = 'e';
-	q = 'q';
-
-	for (la - 'a'; la <= 'z'; la++)
+	for (la = 'a'; la <= 'z'; la++)
 	{
 	if (la != 'e' && la != 'q')
 	putchar(la);
